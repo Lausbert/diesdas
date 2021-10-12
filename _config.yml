@@ -1,11 +1,19 @@
 title: diesdas
 description: diesdas
+baseurl: "/diesdas" # the subpath of your site, e.g. /blog
 url: ""
 
 # Build settings
 plugins:
   - jekyll-postcss
+sass:
+  load_paths:
+    - _sass
+    - node_modules
+
+include: ["node_modules/tailwindcss"]
 
 # Variables
 start_date: 2022-06-20
 end_date: 2022-07-31
+
