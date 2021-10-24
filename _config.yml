@@ -16,3 +16,6 @@ include: ["node_modules/tailwindcss"]
 start_date: 2022-06-20
 end_date: 2022-07-31
 
+# Production variables
+cuttly_count: "https://cutt.ly/fliwo24"
+

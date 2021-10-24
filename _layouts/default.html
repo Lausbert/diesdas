@@ -6,5 +6,12 @@
     </head>
     <body>
         {{content}}
+
+        <!-- Cuttly -->
+        <script>
+            var http = new XMLHttpRequest();
+            http.open('HEAD', "{{ site.cuttly_count }}");
+            http.send();
+        </script>
     </body>
 </html>
